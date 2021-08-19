@@ -22,7 +22,7 @@
 	
 		<nav>
 			<ul>
-				<li>Add new visit</li>
+				<li class="selected">Add new visit</li>
 			</ul>
 		</nav>
 
@@ -37,21 +37,26 @@
 				</fieldset>
 				<fieldset id="products_purchased">
 					<legend>Products Purchased</legend>
-					<p><label for="product">Add a product to the list of what you bought:</label><input id="product" type="text" value=""><button id="start_button">Add To List</button></p>
+					<p><label for="product">New purchase:</label><input id="product_purchased" type="text" value=""><button id="add_button">Add To List</button></p>
 					<div id="products_purchased_list">
-						<p>Your current products purchased</p>
-						<ul>
-							<li>Products purchased list will go in here</li>
-						</ul>
-						<button id="remove_button">Remove From List</button>
+						<h3>Purchase List</h3>
+							<ul id="purchase_list">
+								<li class="selected">Products purchased list will go in here</li>
+								<li>Product 1</li>
+								<li>Product 2</li>
+								<li>Product 3</li>
+							</ul>
+							<button id="remove_button">Remove From List</button>	
 					</div>
 				</fieldset>
-				<p><button id="ssve_button">Save teh Visit</button></p>
+				<p><button id="save_button">Save teh Visit</button></p>
 			</div>
 		</main>
 	
 		<footer>
-			<p>&copy;bigAl 2021</p>
+			<ul>
+				<li>&copy;bigAl 2021</li>
+			</ul>
 		</footer>
 	</body>
 </html>
