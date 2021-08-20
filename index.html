@@ -11,6 +11,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="stylesheet.css"/>
+		<script src="scripts/extension_functions.js"></script>
+		<script src="scripts/dom_interface_functions.js"></script>
+		<script src="scripts/setup.js"></script>
 		<title>Pubs and Ratings</title>
 	</head>
 	
@@ -23,6 +26,7 @@
 		<nav>
 			<ul>
 				<li class="selected">Add new visit</li>
+				<li id="reset">Reset</li>
 			</ul>
 		</nav>
 
@@ -41,7 +45,7 @@
 					<div id="products_purchased_list">
 						<h3>Purchase List</h3>
 							<ul id="purchase_list">
-								<li class="selected">Products purchased list will go in here</li>
+								<li class="selected" id="selectedListItem">Products purchased list will go in here</li>
 								<li>Product 1</li>
 								<li>Product 2</li>
 								<li>Product 3</li>

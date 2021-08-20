@@ -59,6 +59,7 @@ footer {
 	font-size: 0.75rem;
 }
 
+
 /* BORDERS and MARGINS */
 
 p {
@@ -123,12 +124,14 @@ button {
 
 
 /* IMAGES & VIDEOS */
+
 header img {
     height: 100%;
 }
 
 
 /* LAYOUT */
+
 header {
 	display: flex;
 	justify-content: start;
